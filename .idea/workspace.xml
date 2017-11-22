@@ -41,8 +41,8 @@
       <file leaf-file-name="WeRoBot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WeRoBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="520">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511323270979</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加语音回复">
+      <created>1511332531913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511332531913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +340,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit to origin" />
     <MESSAGE value="去掉微信菜单编辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉微信菜单编辑" />
+    <MESSAGE value="添加语音回复" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加语音回复" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -645,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WeRoBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="520">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>

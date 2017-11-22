@@ -18,7 +18,7 @@ def img(message):
 
 @robot.voice
 def voi(message):
-    return message.Recognition
+    return message.recognition
 
 
 robot.config['APP_ID'] = 'wxe31287e98a274894'
