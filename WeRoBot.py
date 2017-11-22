@@ -28,6 +28,11 @@ def onsubscribe():
     return 'hello world'
 
 
+@robot.location
+def location(message):
+    return message.label
+
+
 robot.config['APP_ID'] = 'wxe31287e98a274894'
 robot.config['APP_SECRET'] = '3d8b928b3263ad3fc88e497a5f494abc'
 robot.config['HOST'] = '0.0.0.0'
