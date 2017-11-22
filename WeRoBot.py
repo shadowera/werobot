@@ -21,18 +21,5 @@ robot.config['APP_SECRET'] = '3d8b928b3263ad3fc88e497a5f494abc'
 robot.config['HOST'] = '0.0.0.0'
 robot.config['PORT'] = 80
 client = robot.client
-client.create_menu({
-    "button": [{
-        "type": "click",
-        "name": "今日歌曲",
-        "key": "music"
-    }]
-})
-
-
-@robot.key_click("music")
-def music(message):
-    return '你点击了“今日歌曲”按钮'
-
 
 robot.run()
