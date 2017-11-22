@@ -18,7 +18,14 @@ def img(message):
 
 @robot.voice
 def voi(message):
+    print(message.type)
+    print(message.recognition)
     return message.recognition
+
+
+@robot.subscribe
+def onsubscribe():
+    return 'hello world'
 
 
 robot.config['APP_ID'] = 'wxe31287e98a274894'
